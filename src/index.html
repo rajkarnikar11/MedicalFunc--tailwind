@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="/dist/output.css" rel="stylesheet" />
+		<link href="./main.css" rel="stylesheet" />
 	</head>
 	<body class="font-montserrat">
 		<nav
@@ -19,23 +20,46 @@
 				<ul
 					class="flex w-1/2 text-sm justify-around font-bold text-second_text_color"
 				>
-					<li class="cursor-pointer"><a>Home</a></li>
-					<li class="cursor-pointer"><a>Product</a></li>
-					<li class="cursor-pointer"><a>Pricing</a></li>
-					<li class="cursor-pointer"><a>Contact</a></li>
+					<li
+						class="cursor-pointer duration-300 hover:-translate-y-1"
+					>
+						<a>Home</a>
+					</li>
+					<li
+						class="cursor-pointer duration-300 hover:-translate-y-1"
+					>
+						<a>Product</a>
+					</li>
+					<li
+						class="cursor-pointer duration-300 hover:-translate-y-1"
+					>
+						<a>Pricing</a>
+					</li>
+					<li
+						class="cursor-pointer duration-300 hover:-translate-y-1"
+					>
+						<a>Contact</a>
+					</li>
 				</ul>
 				<ul class="flex w-3/12 items-center justify-between">
 					<li
-						class="cursor-pointer text-primary_color font-bold text-sm"
+						class="cursor-pointer text-primary_color duration-300 hover:-translate-y-1 font-bold text-sm"
 					>
 						<a>Login</a>
 					</li>
 					<li class="cursor-pointer">
 						<button
-							class="bg-primary_color h-14 w-36 rounded justify-evenly items-center font-bold flex text-light_text_color text-sm"
+							class="group nav__button_container bg-primary_color h-14 w-36 rounded justify-evenly items-center font-bold flex text-light_text_color text-sm"
 						>
-							<p>JOIN US</p>
-							<img src="./assets/arrow.svg" />
+							<p
+								class="group-hover:translate-x-4 duration-300 ease-linear"
+							>
+								JOIN US
+							</p>
+							<img
+								class="group-hover:opacity-0 duration-100 ease-linear"
+								src="./assets/arrow.svg"
+							/>
 						</button>
 					</li>
 				</ul>
