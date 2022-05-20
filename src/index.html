@@ -5,59 +5,65 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="/dist/output.css" rel="stylesheet" />
 		<link href="./main.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body class="font-montserrat">
 		<nav
 			class="flex h-[91px] justify-between items-center max-w-5xl mx-auto"
 		>
 			<a
-				><h1 class="text-2xl text-text_color font-bold">
+				><h1 class="text-2xl font-bold cursor-pointer text-text_color">
 					MedicalFunc
 				</h1></a
 			>
 
-			<div class="flex items-center w-4/5 justify-between">
+			<div class="flex items-center justify-between w-4/5">
 				<ul
-					class="flex w-1/2 text-sm justify-around font-bold text-second_text_color"
+					class="flex justify-around w-1/2 text-sm font-bold text-second_text_color"
 				>
 					<li
-						class="cursor-pointer duration-300 hover:-translate-y-1"
+						class="duration-300 cursor-pointer hover:-translate-y-1"
 					>
 						<a>Home</a>
 					</li>
 					<li
-						class="cursor-pointer duration-300 hover:-translate-y-1"
+						class="duration-300 cursor-pointer hover:-translate-y-1"
 					>
 						<a>Product</a>
 					</li>
 					<li
-						class="cursor-pointer duration-300 hover:-translate-y-1"
+						class="duration-300 cursor-pointer hover:-translate-y-1"
 					>
 						<a>Pricing</a>
 					</li>
 					<li
-						class="cursor-pointer duration-300 hover:-translate-y-1"
+						class="duration-300 cursor-pointer hover:-translate-y-1"
 					>
 						<a>Contact</a>
 					</li>
 				</ul>
-				<ul class="flex w-3/12 items-center justify-between">
+				<ul class="flex items-center justify-between w-3/12">
 					<li
-						class="cursor-pointer text-primary_color duration-300 hover:-translate-y-1 font-bold text-sm"
+						class="text-sm font-bold duration-300 cursor-pointer text-primary_color hover:-translate-y-1"
 					>
 						<a>Login</a>
 					</li>
 					<li class="cursor-pointer">
 						<button
-							class="group nav__button_container bg-primary_color h-14 w-36 rounded justify-evenly items-center font-bold flex text-light_text_color text-sm"
+							class="flex items-center text-sm font-bold rounded group nav__button_container bg-primary_color h-14 w-36 justify-evenly text-light_text_color"
 						>
 							<p
-								class="group-hover:translate-x-4 duration-300 ease-linear"
+								class="duration-300 ease-linear group-hover:translate-x-4"
 							>
 								JOIN US
 							</p>
 							<img
-								class="group-hover:opacity-0 duration-100 ease-linear"
+								class="duration-100 ease-linear group-hover:opacity-0"
 								src="./assets/arrow.svg"
 							/>
 						</button>
@@ -65,5 +71,49 @@
 				</ul>
 			</div>
 		</nav>
+		<section
+			class="flex justify-between px-24 mx-auto max-w-7xl herosection"
+		>
+			<div>
+				<h3 class="pt-40 text-base font-bold text-primary_text_color">
+					Welcome
+				</h3>
+				<h2 class="text-6xl font-bold mt-7 text-text_color">
+					Online <br />
+					Appointment
+				</h2>
+				<p class="mt-7 text-second_text_color max-w-[400px]">
+					Medical Functional is most focused in helping you discover
+					your most beauiful smile
+				</p>
+				<div class="mt-8 flex justify-between max-w-[365px]">
+					<div class="group">
+						<button
+							class="bg-primary_color h-[52px] w-48 rounded text-light_text_color font-bold text-sm duration-300 group-hover:-translate-y-2"
+						>
+							Get Quote Now
+						</button>
+					</div>
+					<div class="group">
+						<button
+							class="text-sm font-bold border h-[52px] w-40 rounded border-primary_color group-hover:-translate-y-2 duration-300 text-primary_text_color"
+						>
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="relative home__image-container mt-[51px]">
+				<img class="" src="./assets/heroimage.png" />
+				<img
+					class="absolute top-[122px] -translate-x-2/3 left-0"
+					src="./assets/squarePopup.png"
+				/>
+				<img
+					class="absolute top-[435px] -translate-x-1/3 left-0"
+					src="./assets/rectanglepopUp.png"
+				/>
+			</div>
+		</section>
 	</body>
 </html>
