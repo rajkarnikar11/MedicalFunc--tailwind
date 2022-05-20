@@ -730,6 +730,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 90px;
 }
 
+.h-\[58px\] {
+  height: 58px;
+}
+
 .w-4\/5 {
   width: 80%;
 }
@@ -822,6 +826,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
+.w-\[688\] {
+  width: 688;
+}
+
+.w-\[688px\] {
+  width: 688px;
+}
+
+.w-\[551px\] {
+  width: 551px;
+}
+
+.w-\[117px\] {
+  width: 117px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -868,6 +896,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[275px\] {
   max-width: 275px;
+}
+
+.max-w-\[688px\] {
+  max-width: 688px;
 }
 
 .-translate-x-2\/3 {
@@ -927,6 +959,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -934,6 +976,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-primary_color {
   --tw-border-opacity: 1;
   border-color: rgb(35 166 240 / var(--tw-border-opacity));
+}
+
+.border-\[\#E6E6E6\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(230 230 230 / var(--tw-border-opacity));
 }
 
 .bg-primary_color {
@@ -959,6 +1006,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-dark_background_color {
   --tw-bg-opacity: 1;
   background-color: rgb(37 43 66 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E6E6E6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 230 230 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F9F9F9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/src\/assets\/rectangularbackground\.svg\'\)\] {
@@ -1051,6 +1108,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-40 {
