@@ -568,6 +568,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -628,6 +632,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .flex {
@@ -736,6 +764,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-\[31\.1\%\] {
+  width: 31.1%;
+}
+
+.w-\[203\] {
+  width: 203;
+}
+
+.w-\[203px\] {
+  width: 203px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .max-w-5xl {
@@ -964,12 +1012,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pt-40 {
   padding-top: 10rem;
 }
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .font-montserrat {
@@ -1054,6 +1111,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-secondary_color_1 {
   --tw-text-opacity: 1;
   color: rgb(64 187 21 / var(--tw-text-opacity));
+}
+
+.text-disabled_element_color {
+  --tw-text-opacity: 1;
+  color: rgb(142 194 242 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
