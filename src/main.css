@@ -1,11 +1,25 @@
-/* .nav__button-container:hover > .nav__button-arrow {
-	transform: translateX(10px);
+.herosection {
 }
 
-.nav__button-arrow {
-	transition: linear 0.5s;
-} */
-
-/* .nav__button-container {
-	transition: linear 0.5s;
-} */
+.herosection::after {
+	position: absolute;
+	content: " ";
+	border-radius: 0 0 50% 0;
+	background-color: #b2e3ff;
+	height: 177px;
+	width: 111px;
+	top: 0px;
+	z-index: -1;
+	left: 0;
+}
+.herosection::before {
+	content: " ";
+	position: absolute;
+	top: 0px;
+	right: 0;
+	height: 700px;
+	border-radius: 0 0 0 150px;
+	width: 40vw;
+	background-color: #b2e3ff;
+	z-index: -1;
+}

@@ -10,19 +10,19 @@
 *,
 ::before,
 ::after {
-	box-sizing: border-box;
-	/* 1 */
-	border-width: 0;
-	/* 2 */
-	border-style: solid;
-	/* 2 */
-	border-color: #e5e7eb;
-	/* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
 }
 
 ::before,
 ::after {
-	--tw-content: "";
+  --tw-content: '';
 }
 
 /*
@@ -33,20 +33,17 @@
 */
 
 html {
-	line-height: 1.5;
-	/* 1 */
-	-webkit-text-size-adjust: 100%;
-	/* 2 */
-	-moz-tab-size: 4;
-	/* 3 */
-	-o-tab-size: 4;
-	tab-size: 4;
-	/* 3 */
-	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-		"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-		"Noto Color Emoji";
-	/* 4 */
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
 }
 
 /*
@@ -55,10 +52,10 @@ html {
 */
 
 body {
-	margin: 0;
-	/* 1 */
-	line-height: inherit;
-	/* 2 */
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
 }
 
 /*
@@ -68,12 +65,12 @@ body {
 */
 
 hr {
-	height: 0;
-	/* 1 */
-	color: inherit;
-	/* 2 */
-	border-top-width: 1px;
-	/* 3 */
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
 }
 
 /*
@@ -81,8 +78,8 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr:where([title]) {
-	-webkit-text-decoration: underline dotted;
-	text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -95,8 +92,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: inherit;
-	font-weight: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 /*
@@ -104,8 +101,8 @@ Reset links to optimize for opt-in styling instead of opt-out.
 */
 
 a {
-	color: inherit;
-	text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /*
@@ -114,7 +111,7 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
 /*
@@ -126,11 +123,10 @@ code,
 kbd,
 samp,
 pre {
-	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-		"Liberation Mono", "Courier New", monospace;
-	/* 1 */
-	font-size: 1em;
-	/* 2 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /*
@@ -138,7 +134,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-	font-size: 80%;
+  font-size: 80%;
 }
 
 /*
@@ -147,18 +143,18 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 
 /*
@@ -168,12 +164,12 @@ sup {
 */
 
 table {
-	text-indent: 0;
-	/* 1 */
-	border-color: inherit;
-	/* 2 */
-	border-collapse: collapse;
-	/* 3 */
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
 }
 
 /*
@@ -187,18 +183,18 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit;
-	/* 1 */
-	font-size: 100%;
-	/* 1 */
-	line-height: inherit;
-	/* 1 */
-	color: inherit;
-	/* 1 */
-	margin: 0;
-	/* 2 */
-	padding: 0;
-	/* 3 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
 }
 
 /*
@@ -207,7 +203,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-	text-transform: none;
+  text-transform: none;
 }
 
 /*
@@ -216,15 +212,15 @@ select {
 */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-	-webkit-appearance: button;
-	/* 1 */
-	background-color: transparent;
-	/* 2 */
-	background-image: none;
-	/* 2 */
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
 }
 
 /*
@@ -232,7 +228,7 @@ Use the modern Firefox focus style for all focusable elements.
 */
 
 :-moz-focusring {
-	outline: auto;
+  outline: auto;
 }
 
 /*
@@ -240,7 +236,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 */
 
 :-moz-ui-invalid {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 /*
@@ -248,7 +244,7 @@ Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-	vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 /*
@@ -257,7 +253,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-	height: auto;
+  height: auto;
 }
 
 /*
@@ -265,11 +261,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type="search"] {
-	-webkit-appearance: textfield;
-	/* 1 */
-	outline-offset: -2px;
-	/* 2 */
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /*
@@ -277,7 +273,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /*
@@ -286,10 +282,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button;
-	/* 1 */
-	font: inherit;
-	/* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /*
@@ -297,7 +293,7 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-	display: list-item;
+  display: list-item;
 }
 
 /*
@@ -317,24 +313,24 @@ hr,
 figure,
 p,
 pre {
-	margin: 0;
+  margin: 0;
 }
 
 fieldset {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 legend {
-	padding: 0;
+  padding: 0;
 }
 
 ol,
 ul,
 menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -342,7 +338,7 @@ Prevent resizing textareas horizontally by default.
 */
 
 textarea {
-	resize: vertical;
+  resize: vertical;
 }
 
 /*
@@ -350,28 +346,26 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-	opacity: 1;
-	/* 1 */
-	color: #9ca3af;
-	/* 2 */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
 }
 
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-	opacity: 1;
-	/* 1 */
-	color: #9ca3af;
-	/* 2 */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-	opacity: 1;
-	/* 1 */
-	color: #9ca3af;
-	/* 2 */
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
 }
 
 /*
@@ -380,7 +374,7 @@ Set the default cursor for buttons.
 
 button,
 [role="button"] {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /*
@@ -388,7 +382,7 @@ Make sure disabled buttons don't get the pointer cursor.
 */
 
 :disabled {
-	cursor: default;
+  cursor: default;
 }
 
 /*
@@ -405,10 +399,10 @@ audio,
 iframe,
 embed,
 object {
-	display: block;
-	/* 1 */
-	vertical-align: middle;
-	/* 2 */
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
 }
 
 /*
@@ -417,8 +411,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /*
@@ -426,425 +420,244 @@ Ensure the default browser behavior of the `hidden` attribute.
 */
 
 [hidden] {
-	display: none;
+  display: none;
 }
 
-*,
-::before,
-::after {
-	--tw-translate-x: 0;
-	--tw-translate-y: 0;
-	--tw-rotate: 0;
-	--tw-skew-x: 0;
-	--tw-skew-y: 0;
-	--tw-scale-x: 1;
-	--tw-scale-y: 1;
-	--tw-pan-x: ;
-	--tw-pan-y: ;
-	--tw-pinch-zoom: ;
-	--tw-scroll-snap-strictness: proximity;
-	--tw-ordinal: ;
-	--tw-slashed-zero: ;
-	--tw-numeric-figure: ;
-	--tw-numeric-spacing: ;
-	--tw-numeric-fraction: ;
-	--tw-ring-inset: ;
-	--tw-ring-offset-width: 0px;
-	--tw-ring-offset-color: #fff;
-	--tw-ring-color: rgb(59 130 246 / 0.5);
-	--tw-ring-offset-shadow: 0 0 #0000;
-	--tw-ring-shadow: 0 0 #0000;
-	--tw-shadow: 0 0 #0000;
-	--tw-shadow-colored: 0 0 #0000;
-	--tw-blur: ;
-	--tw-brightness: ;
-	--tw-contrast: ;
-	--tw-grayscale: ;
-	--tw-hue-rotate: ;
-	--tw-invert: ;
-	--tw-saturate: ;
-	--tw-sepia: ;
-	--tw-drop-shadow: ;
-	--tw-backdrop-blur: ;
-	--tw-backdrop-brightness: ;
-	--tw-backdrop-contrast: ;
-	--tw-backdrop-grayscale: ;
-	--tw-backdrop-hue-rotate: ;
-	--tw-backdrop-invert: ;
-	--tw-backdrop-opacity: ;
-	--tw-backdrop-saturate: ;
-	--tw-backdrop-sepia: ;
-}
-
-.relative {
-	position: relative;
+*, ::before, ::after {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
 }
 
 .mx-auto {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
-	display: flex;
-}
-
-.hidden {
-	display: none;
+  display: flex;
 }
 
 .h-\[91px\] {
-	height: 91px;
+  height: 91px;
 }
 
 .h-14 {
-	height: 3.5rem;
+  height: 3.5rem;
 }
 
-.w-2\/3 {
-	width: 66.666667%;
+.h-\[52px\] {
+  height: 52px;
 }
 
 .w-4\/5 {
-	width: 80%;
+  width: 80%;
 }
 
 .w-1\/2 {
-	width: 50%;
-}
-
-.w-1\/4 {
-	width: 25%;
-}
-
-.w-1\/5 {
-	width: 20%;
-}
-
-.w-2\/12 {
-	width: 16.666667%;
-}
-
-.w-1\/12 {
-	width: 8.333333%;
+  width: 50%;
 }
 
 .w-3\/12 {
-	width: 25%;
+  width: 25%;
 }
 
 .w-36 {
-	width: 9rem;
+  width: 9rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .max-w-5xl {
-	max-width: 64rem;
+  max-width: 64rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
+.max-w-\[365px\] {
+  max-width: 365px;
 }
 
 .cursor-pointer {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .items-center {
-	align-items: center;
+  align-items: center;
 }
 
 .justify-between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-around {
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-evenly {
-	justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .rounded {
-	border-radius: 0.25rem;
+  border-radius: 0.25rem;
 }
 
-.border-4 {
-	border-width: 4px;
+.border {
+  border-width: 1px;
 }
 
-.border-r-4 {
-	border-right-width: 4px;
-}
-
-.bg-slate-300 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+.border-primary_color {
+  --tw-border-opacity: 1;
+  border-color: rgb(35 166 240 / var(--tw-border-opacity));
 }
 
 .bg-primary_color {
-	--tw-bg-opacity: 1;
-	background-color: rgb(35 166 240 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 166 240 / var(--tw-bg-opacity));
 }
 
-.bg-orange-700 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(194 65 12 / var(--tw-bg-opacity));
-}
-
-.px-6 {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-
-.py-4 {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .font-montserrat {
-	font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .text-2xl {
-	font-size: 1.5rem;
-	line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-sm {
-	font-size: 0.875rem;
-	line-height: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
-.text-3xl {
-	font-size: 1.875rem;
-	line-height: 2.25rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .text-text_color {
-	--tw-text-opacity: 1;
-	color: rgb(37 43 66 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(37 43 66 / var(--tw-text-opacity));
 }
 
 .text-second_text_color {
-	--tw-text-opacity: 1;
-	color: rgb(115 115 115 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .text-primary_color {
-	--tw-text-opacity: 1;
-	color: rgb(35 166 240 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(35 166 240 / var(--tw-text-opacity));
 }
 
 .text-light_text_color {
-	--tw-text-opacity: 1;
-	color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline {
-	-webkit-text-decoration-line: underline;
-	text-decoration-line: underline;
-}
-
-.outline {
-	outline-style: solid;
-}
-
-.duration-300 {
-	transition-duration: 300ms;
-}
-
-.duration-500 {
-	transition-duration: 500ms;
-}
-
-.duration-1000 {
-	transition-duration: 1000ms;
-}
-
-.duration-100 {
-	transition-duration: 100ms;
-}
-
-.ease-linear {
-	transition-timing-function: linear;
-}
-
-.hover\:hidden:hover {
-	display: none;
-}
-
-.hover\:translate-y-1:hover {
-	--tw-translate-y: 0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:-translate-y-1:hover {
-	--tw-translate-y: -0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:bg-white:hover {
-	--tw-bg-opacity: 1;
-	background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:last\:hidden:last-child:hover {
-	display: none;
-}
-
-.group:hover .group-hover\:hidden {
-	display: none;
-}
-
-.group:hover .group-hover\:translate-x-2 {
-	--tw-translate-x: 0.5rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:translate-x-4 {
-	--tw-translate-x: 1rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:translate-x-1 {
-	--tw-translate-x: 0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:bg-green-300 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(134 239 172 / var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:text-purple-200 {
-	--tw-text-opacity: 1;
-	color: rgb(233 213 255 / var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:text-purple-500 {
-	--tw-text-opacity: 1;
-	color: rgb(168 85 247 / var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:opacity-0 {
-	opacity: 0;
-}
-
-.peer:hover ~ .peer-hover\:hidden {
-	display: none;
+.text-primary_text_color {
+  --tw-text-opacity: 1;
+  color: rgb(35 166 240 / var(--tw-text-opacity));
 }
 
 .outline {
-	outline-style: solid;
+  outline-style: solid;
 }
 
 .duration-300 {
-	transition-duration: 300ms;
-}
-
-.duration-500 {
-	transition-duration: 500ms;
-}
-
-.duration-1000 {
-	transition-duration: 1000ms;
+  transition-duration: 300ms;
 }
 
 .duration-100 {
-	transition-duration: 100ms;
+  transition-duration: 100ms;
 }
 
 .ease-linear {
-	transition-timing-function: linear;
-}
-
-.hover\:hidden:hover {
-	display: none;
-}
-
-.hover\:translate-y-1:hover {
-	--tw-translate-y: 0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-timing-function: linear;
 }
 
 .hover\:-translate-y-1:hover {
-	--tw-translate-y: -0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:bg-white:hover {
-	--tw-bg-opacity: 1;
-	background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:last\:hidden:last-child:hover {
-	display: none;
-}
-
-.group:hover .group-hover\:hidden {
-	display: none;
-}
-
-.group:hover .group-hover\:translate-x-2 {
-	--tw-translate-x: 0.5rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:translate-x-4 {
-	--tw-translate-x: 1rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:translate-x-1 {
-	--tw-translate-x: 0.25rem;
-	transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:bg-green-300 {
-	--tw-bg-opacity: 1;
-	background-color: rgb(134 239 172 / var(--tw-bg-opacity));
-}
-
-.group:hover .group-hover\:text-purple-200 {
-	--tw-text-opacity: 1;
-	color: rgb(233 213 255 / var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:text-purple-500 {
-	--tw-text-opacity: 1;
-	color: rgb(168 85 247 / var(--tw-text-opacity));
+  --tw-translate-x: 1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:opacity-0 {
-	opacity: 0;
-}
-
-.peer:hover ~ .peer-hover\:hidden {
-	display: none;
+  opacity: 0;
 }
