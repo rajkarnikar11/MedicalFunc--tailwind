@@ -567,6 +567,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 4rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -649,6 +654,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .flex {
@@ -791,6 +808,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7rem;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -829,6 +850,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[688px\] {
   max-width: 688px;
+}
+
+.max-w-\[203px\] {
+  max-width: 203px;
+}
+
+.max-w-\[240px\] {
+  max-width: 240px;
 }
 
 .-translate-x-4 {
@@ -1094,6 +1123,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 30px;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1146,6 +1180,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
 }
 
 .duration-500 {
@@ -1443,6 +1481,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 66.666667%;
   }
 
+  .md\:w-\[31\.1\%\] {
+    width: 31.1%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1451,6 +1497,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
