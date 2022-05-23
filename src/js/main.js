@@ -5,6 +5,7 @@ function toggleMenu() {
 		toggler = 1;
 		// document.querySelector(".nav__item").style.opacity =
 		// 	"1";
+
 		document.querySelector(".nav__item").style.display = "flex";
 		document.querySelector(".line__2").style.transform = "scale(0)";
 		document.querySelector(".line__1").style.transform =
