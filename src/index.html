@@ -22,15 +22,29 @@
 		<!-- navbar -->
 
 		<nav
-			class="flex h-[91px] justify-between items-center max-w-5xl mx-auto"
+			class="flex h-[91px] relative justify-between px-3 lg:px-0 w-full items-center lg:max-w-5xl mx-auto"
 		>
 			<a
 				><h1 class="text-2xl font-bold cursor-pointer text-text_color">
 					MedicalFunc
 				</h1></a
 			>
-
-			<div class="flex items-center justify-between w-4/5">
+			<div
+				class="absolute right-0 -translate-x-4 -translate-y-1/2 cursor-pointer md:hidden burger top-1/2"
+			>
+				<div
+					class="h-1 my-2 rounded-full w-11 bg-dark_background_color"
+				></div>
+				<div
+					class="h-1 my-2 rounded-full w-11 bg-dark_background_color"
+				></div>
+				<div
+					class="h-1 my-2 rounded-full w-11 bg-dark_background_color"
+				></div>
+			</div>
+			<div
+				class="items-center justify-around hidden w-4/5 lg:justify-between md:flex"
+			>
 				<ul
 					class="flex justify-around w-1/2 text-sm font-bold text-second_text_color"
 				>
@@ -55,9 +69,9 @@
 						<a>Contact</a>
 					</li>
 				</ul>
-				<ul class="flex items-center justify-between w-3/12">
+				<ul class="flex items-center justify-between lg:w-3/12">
 					<li
-						class="text-sm font-bold duration-300 cursor-pointer text-primary_color hover:-translate-y-1"
+						class="mx-2 text-sm font-bold duration-300 cursor-pointer text-primary_color hover:-translate-y-1"
 					>
 						<a>Login</a>
 					</li>
@@ -78,12 +92,56 @@
 					</li>
 				</ul>
 			</div>
+			<div
+				class="flex-col items-end justify-around hidden px-3 mt-10 translate-y-1/2 rounded-bl-xl bg-faded_primary_color nav__item lg:justify-between md:hidden"
+			>
+				<ul
+					class="flex flex-col justify-around text-sm font-bold text-right text-second_text_color"
+				>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Home</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Product</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Pricing</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Contact</a>
+					</li>
+				</ul>
+				<ul
+					class="flex flex-col items-end justify-between mt-3 lg:w-3/12"
+				>
+					<li
+						class="mx-2 text-sm font-bold text-right duration-300 cursor-pointer text-primary_color hover:-translate-x-1"
+					>
+						<a>Login</a>
+					</li>
+					<li class="cursor-pointer">
+						<button
+							class="flex items-center w-20 p-2 my-2 text-xs font-bold duration-300 border rounded border-primary_color hover:bg-light_background_color hover:text-primary_text_color nav__button_container bg-primary_color h-11 sm:w-36 justify-evenly text-light_text_color"
+						>
+							<p class="duration-300 ease-linear">JOIN US</p>
+						</button>
+					</li>
+				</ul>
+			</div>
 		</nav>
 
 		<!-- Hero section -->
 
 		<section
-			class="flex justify-between px-3 mx-auto max-w-7xl 2xl:px-0 xl:max-w-6xl lg:px-8 md:px-6 sm:px-4 outline herosection"
+			class="flex justify-between px-3 mx-auto max-w-7xl 2xl:px-0 xl:max-w-6xl lg:px-8 md:px-6 sm:px-4 herosection"
 		>
 			<div>
 				<h3 class="pt-40 text-base font-bold text-primary_text_color">
@@ -1094,7 +1152,7 @@
 
 		<!-- footer -->
 
-		<section class="h-20 bg-[#FAFAFA]">
+		<footer class="h-20 bg-[#FAFAFA]">
 			<div
 				class="flex h-20 items-center justify-between max-w-[1050px] mx-auto"
 			>
@@ -1107,6 +1165,7 @@
 					<img src="./assets/twitter_icon.svg" alt="twitter logo" />
 				</div>
 			</div>
-		</section>
+		</footer>
+		<script type="module" src="./js/main.js"></script>
 	</body>
 </html>
