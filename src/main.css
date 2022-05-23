@@ -10,6 +10,7 @@
 	width: 111px;
 	top: 0px;
 	z-index: -1;
+
 	left: 0;
 }
 .herosection::before {
@@ -47,4 +48,15 @@
 
 	background-color: #ffdce0;
 	border-radius: 0 100px 100px 0;
+}
+@media screen and (max-width: 1285px) {
+	.home__image-container::before,
+	.home__image-container::after {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.herosection::before {
+		display: none;
+	}
 }

@@ -82,22 +82,26 @@
 
 		<!-- Hero section -->
 
-		<section class="flex justify-between mx-auto max-w-7xl herosection">
+		<section
+			class="flex justify-between px-3 mx-auto max-w-7xl 2xl:px-0 xl:max-w-6xl lg:px-8 md:px-6 sm:px-4 outline herosection"
+		>
 			<div>
 				<h3 class="pt-40 text-base font-bold text-primary_text_color">
 					Welcome
 				</h3>
-				<h2 class="text-6xl font-bold mt-7 text-text_color">
+				<h2 class="text-4xl font-bold sm:text-6xl mt-7 text-text_color">
 					Online <br />
 					Appointment
 				</h2>
 				<p
-					class="mt-7 text-second_text_color font-medium max-w-[400px]"
+					class="mt-7 text-second_text_color font-medium sm:max-w-[400px] max-w-[300px]"
 				>
 					Medical Functional is most focused in helping you discover
 					your most beauiful smile
 				</p>
-				<div class="mt-8 flex justify-between max-w-[365px]">
+				<div
+					class="mt-8 flex flex-col-reverse my-2 xs:flex-row justify-between max-w-[365px]"
+				>
 					<div class="group">
 						<button
 							class="bg-primary_color h-[52px] w-48 rounded text-light_text_color font-bold text-sm duration-300 group-hover:-translate-y-2"
@@ -107,21 +111,21 @@
 					</div>
 					<div class="group">
 						<button
-							class="text-sm font-bold border h-[52px] w-40 rounded border-primary_color group-hover:-translate-y-2 duration-300 text-primary_text_color"
+							class="text-sm font-bold border h-[52px] w-40 xs:ml-2 mb-2 ml-0 rounded border-primary_color group-hover:-translate-y-2 duration-300 text-primary_text_color"
 						>
 							Learn More
 						</button>
 					</div>
 				</div>
 			</div>
-			<div class="relative home__image-container my-[51px]">
-				<img src="./assets/heroimage.png" />
+			<div class="relative mr-4 home__image-container my-[51px]">
+				<img class="hidden md:block" src="./assets/heroimage.png" />
 				<img
-					class="absolute top-[122px] -translate-x-2/3 left-0"
+					class="absolute top-[122px] lg:block hidden xl:-translate-x-2/3 lg:-translate-x-1/2 left-0"
 					src="./assets/squarePopup.png"
 				/>
 				<img
-					class="absolute top-[435px] -translate-x-1/3 left-0"
+					class="absolute top-[435px] lg:block hidden -translate-x-1/3 left-0"
 					src="./assets/rectanglepopUp.png"
 				/>
 			</div>
