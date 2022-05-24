@@ -25,7 +25,7 @@ function toggleMenu() {
 		document.querySelector(".line__1").style.transform =
 			"rotate(0deg) translate(0px, 0px)";
 		document.querySelector(".line__2").style.transform = "scale(1)";
-		document.querySelector(".line__3").style.transform = "rotate(-360deg)";
+		document.querySelector(".line__3").style.transform = "rotate(0deg)";
 	}
 }
 menu.addEventListener("click", toggleMenu);
