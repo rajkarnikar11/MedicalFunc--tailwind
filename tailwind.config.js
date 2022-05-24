@@ -2,6 +2,12 @@ module.exports = {
 	content: ["./src/**/*.{html,js}"],
 	theme: {
 		extend: {
+			keyframes: {
+				wiggle: {
+					"0%, 100%": { transform: "rotate(-3deg)" },
+					"50%": { transform: "rotate(3deg)" },
+				},
+			},
 			screens: {
 				xs: "400px",
 				// => @media (min-width: 400px) { ... }
