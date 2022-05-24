@@ -14,7 +14,7 @@ function toggleMenu() {
 		document.querySelector(".line__3").style.transform = "rotate(-45deg)";
 		document.querySelector(".line__3").style.transformOrigin =
 			"bottom left";
-		document.querySelector(".line__2").style.transformOrigin = "center";
+		// document.querySelector(".line__2").style.transformOrigin = "center";
 		document.querySelector(".line__3").style.transitionDuration = ".3s";
 		document.querySelector(".line__2").style.transitionDuration = ".3s";
 		document.querySelector(".line__1").style.transitionDuration = ".3s";
