@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<link href="./main.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="font-montserrat">
+		<!-- navbar -->
+
+		<nav
+			class="flex h-[91px] relative justify-between px-3 lg:px-0 w-full items-center lg:max-w-5xl mx-auto"
+		>
+			<a
+				><h1 class="text-2xl font-bold cursor-pointer text-text_color">
+					MedicalFunc
+				</h1></a
+			>
+			<div
+				class="absolute right-0 duration-500 -translate-x-4 -translate-y-1/2 cursor-pointer md:hidden burger top-1/2"
+			>
+				<div
+					class="h-1 my-2 rounded-full line__1 w-11 bg-dark_background_color"
+				></div>
+				<div
+					class="h-1 my-2 rounded-full line__2 w-11 bg-dark_background_color"
+				></div>
+				<div
+					class="h-1 my-2 rounded-full line__3 w-11 bg-dark_background_color"
+				></div>
+			</div>
+			<div
+				class="items-center justify-around hidden w-4/5 lg:justify-between md:flex"
+			>
+				<ul
+					class="flex justify-around w-1/2 text-sm font-bold text-second_text_color"
+				>
+					<li
+						class="duration-300 cursor-pointer hover:-translate-y-1"
+					>
+						<a>Home</a>
+					</li>
+					<li
+						class="duration-300 cursor-pointer hover:-translate-y-1"
+					>
+						<a>Product</a>
+					</li>
+					<li
+						class="duration-300 cursor-pointer hover:-translate-y-1"
+					>
+						<a>Pricing</a>
+					</li>
+					<li
+						class="duration-300 cursor-pointer hover:-translate-y-1"
+					>
+						<a>Contact</a>
+					</li>
+				</ul>
+				<ul class="flex items-center justify-between lg:w-3/12">
+					<li
+						class="mx-2 text-sm font-bold duration-300 cursor-pointer text-primary_color hover:-translate-y-1"
+					>
+						<a>Login</a>
+					</li>
+					<li class="cursor-pointer">
+						<button
+							class="flex items-center text-sm font-bold rounded group nav__button_container bg-primary_color h-14 w-36 justify-evenly text-light_text_color"
+						>
+							<p
+								class="duration-300 ease-linear group-hover:translate-x-4"
+							>
+								JOIN US
+							</p>
+							<img
+								class="duration-100 ease-linear group-hover:opacity-0"
+								src="./assets/arrow.svg"
+							/>
+						</button>
+					</li>
+				</ul>
+			</div>
+			<div
+				class="flex-col items-end justify-around hidden px-3 mt-20 translate-y-1/2 rounded-bl-xl bg-faded_primary_color nav__item lg:justify-between md:hidden"
+			>
+				<ul
+					class="flex flex-col justify-around text-sm font-bold text-right text-second_text_color"
+				>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Home</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Product</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Pricing</a>
+					</li>
+					<li
+						class="my-2 duration-300 cursor-pointer hover:-translate-x-1"
+					>
+						<a>Contact</a>
+					</li>
+				</ul>
+				<ul
+					class="flex flex-col items-end justify-between mt-3 lg:w-3/12"
+				>
+					<li
+						class="mx-2 text-sm font-bold text-right duration-300 cursor-pointer text-primary_color hover:-translate-x-1"
+					>
+						<a>Login</a>
+					</li>
+					<li class="cursor-pointer">
+						<button
+							class="flex items-center w-20 p-2 my-2 text-xs font-bold duration-300 border rounded border-primary_color hover:bg-light_background_color hover:text-primary_text_color nav__button_container bg-primary_color h-11 sm:w-36 justify-evenly text-light_text_color"
+						>
+							<p class="duration-300 ease-linear">JOIN US</p>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Hero section -->
+
+		<section
+			class="flex justify-between px-3 mx-auto max-w-7xl 2xl:px-0 xl:max-w-6xl lg:px-8 md:px-6 sm:px-4 herosection"
+		>
+			<div>
+				<h3 class="pt-40 text-base font-bold text-primary_text_color">
+					Welcome
+				</h3>
+				<h2 class="text-4xl font-bold sm:text-6xl mt-7 text-text_color">
+					Online <br />
+					Appointment
+				</h2>
+				<p
+					class="mt-7 text-second_text_color font-medium sm:max-w-[400px] max-w-[300px]"
+				>
+					Medical Functional is most focused in helping you discover
+					your most beauiful smile
+				</p>
+				<div
+					class="mt-8 flex flex-col-reverse my-2 xs:flex-row justify-between max-w-[365px]"
+				>
+					<div class="group">
+						<button
+							class="bg-primary_color h-[52px] w-48 rounded text-light_text_color font-bold text-sm duration-300 group-hover:-translate-y-2"
+						>
+							Get Quote Now
+						</button>
+					</div>
+					<div class="group">
+						<button
+							class="text-sm font-bold border h-[52px] w-40 xs:ml-2 mb-3 ml-0 rounded border-primary_color group-hover:-translate-y-2 duration-300 text-primary_text_color"
+						>
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="relative mr-4 home__image-container my-[51px]">
+				<img
+					class="hidden md:block"
+					src="./assets/heroimage.png"
+					width="440px"
+					height="566px"
+				/>
+				<img
+					class="absolute top-[122px] lg:block hidden xl:-translate-x-2/3 lg:-translate-x-1/3 left-0"
+					src="./assets/squarePopup.png"
+				/>
+				<img
+					class="absolute top-[435px] lg:block hidden -translate-x-1/3 left-0"
+					src="./assets/rectanglepopUp.png"
+				/>
+			</div>
+		</section>
+
+		<!-- Our Activity -->
+
+		<section
+			class="max-w-[1050px] xl:px-0 lg:px-16 md:px-12 sm:px-8 px-3 mx-auto py-40"
+		>
+			<h6 class="text-sm font-bold text-primary_text_color">
+				Practice Advice
+			</h6>
+			<h3 class="font-bold text-text_color text-[40px] mt-2">
+				Our Activity
+			</h3>
+			<p class="text-sm text-second_text_color max-w-[469px]">
+				Problems trying to resolve the conflict between the two major
+				realms of Classical physics: Newtonian mechanics
+			</p>
+			<div class="flex flex-col justify-between w-full mt-20 sm:flex-row">
+				<card
+					class="w-full mt-14 sm:w-[31.57%] flex flex-col items-center shadow-xl px-10 py-9 hover:scale-110 duration-300 cursor-pointer"
+				>
+					<img
+						src="./assets/vector1.png"
+						height="72px"
+						width="72px"
+					/>
+					<h5
+						class="mt-6 relative text-base font-bold text-text_color after:h-[2px] after:bg-danger_color after:w-12 after:absolute after:left-0 after:bottom-0 after:translate-y-[20px]"
+					>
+						Emergency case
+					</h5>
+					<p
+						class="mt-10 text-sm max-w-[132px] text-second_text_color"
+					>
+						The gradual accumulation of information about
+					</p>
+				</card>
+				<card
+					class="w-full sm:w-[31.57%] flex flex-col items-center mt-14 hover:scale-110 duration-300 cursor-pointer shadow-xl px-10 py-9"
+				>
+					<img
+						src="./assets/vectora.png"
+						height="72px"
+						width="72px"
+					/>
+					<h5
+						class="mt-6 relative text-base font-bold text-text_color after:h-[2px] after:bg-danger_color after:w-12 after:absolute after:left-0 after:bottom-0 after:translate-y-[20px]"
+					>
+						Health Query
+					</h5>
+					<p
+						class="mt-10 text-sm max-w-[132px] text-second_text_color"
+					>
+						The gradual accumulation of information about
+					</p>
+				</card>
+				<card
+					class="w-full mt-14 sm:w-[31.57%] flex flex-col items-center hover:scale-110 duration-300 cursor-pointer shadow-xl px-10 py-9"
+				>
+					<img
+						src="./assets/vectorb.png"
+						height="72px"
+						width="72px"
+					/>
+					<h5
+						class="mt-6 relative text-base font-bold text-text_color after:h-[2px] after:bg-danger_color after:w-12 after:absolute after:left-0 after:bottom-0 after:translate-y-[20px]"
+					>
+						Painless Procedure
+					</h5>
+					<p
+						class="mt-10 text-sm max-w-[132px] text-second_text_color"
+					>
+						The gradual accumulation of information about
+					</p>
+				</card>
+			</div>
+		</section>
+
+		<!-- Leading Medicine -->
+
+		<section
+			class="px-5 bg-faded_secondary_color_2 xl:px-0 lg:px-16 md:px-12 sm:px-8"
+		>
+			<div class="max-w-[1050px] flex justify-between mx-auto py-40">
+				<div class="mt-24">
+					<h3
+						class="font-bold whitespace-nowrap relative text-[30px] xs:text-[40px] md:w-2/3 lg:w-1/2 text-text_color after:h-2 after:w-24 after:bg-danger_color after:absolute after:left-0 after:top-0 after:-translate-y-9"
+					>
+						Leading Medicine
+					</h3>
+					<p
+						class="text-sm mt-9 text-second_text_color max-w-[350px]"
+					>
+						Problems trying to resolve the conflict between the two
+						major realms of Classical physics: Newtonian mechanics
+					</p>
+					<div
+						class="flex group justify-between cursor-pointer mt-9 max-w-[101px]"
+					>
+						<p
+							class="text-sm font-bold duration-300 group-hover:translate-x-3 text-primary_color"
+						>
+							Learn More
+						</p>
+						<img
+							class="duration-300 group-hover:opacity-0"
+							src="./assets/angulararrow.svg"
+						/>
+					</div>
+				</div>
+				<div
+					class="hidden md:block bg-[url('../src/assets/rectangularbackground.svg')] ml:mr-24 relative bg-no-repeat w-[337px] h-[347px] ml:bg-left bg-cover"
+				>
+					<img
+						class="absolute object-cover -right-16 -top-12"
+						src="./assets/testube.png"
+					/>
+					<img
+						class="absolute hidden z-10 top-[265px] right-0 ml:block ml:translate-x-1/4"
+						src="./assets/rectanglepopUp.png"
+					/>
+					<img
+						class="absolute top-0 right-0 z-10 hidden ml:block ml:translate-x-2/3"
+						src="./assets/squarePopup.png"
+						height="170px"
+						width="170px"
+					/>
+				</div>
+				<!-- <div>hello</div> -->
+			</div>
+		</section>
+
+		<!-- specialize -->
+
+		<section>
+			<div
+				class="max-w-[1050px] xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 justify-between mx-auto py-40"
+			>
+				<h6 class="text-sm font-bold text-primary_text_color">
+					Practice Advice
+				</h6>
+				<h3 class="font-bold text-text_color text-[40px] mt-2">
+					Our Doctors Specialize in you
+				</h3>
+				<p class="text-sm text-second_text_color max-w-[469px]">
+					Problems trying to resolve the conflict between the two
+					major realms of Classical physics: Newtonian mechanics
+				</p>
+				<div
+					class="flex flex-col items-center justify-between mt-20 ml:flex-row"
+				>
+					<card class="ml:w-[32.6%] w-4/5 ml:py-0 pb-20 my-10">
+						<div class="relative h-[300px]">
+							<div
+								class="absolute px-3 font-bold rounded text-light_text_color bg-danger_color top-5 left-5"
+							>
+								Sale
+							</div>
+							<img
+								class="object-cover w-full h-full"
+								src="./assets/specialize1.png"
+							/>
+							<div
+								class="absolute flex justify-between h-10 -translate-x-1/2 left-1/2 bottom-6 w-36"
+							>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full bg-light_background_color place-items-center hover:scale-110"
+								>
+									<img
+										height="17.5px"
+										width="15.5px"
+										src="./assets/like.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/cart.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/view.svg"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="w-full p-6">
+							<div class="flex justify-between w-full">
+								<h3
+									class="text-sm font-bold text-primary_color"
+								>
+									English Department
+								</h3>
+								<div
+									class="flex items-center h-full justify-between xs:px-2 py-0 xs:py-1 px-1 rounded-full w-14 bg-dark_background_color"
+								>
+									<img
+										class="scale-75 xs:scale-100"
+										src="./assets/star-fill.svg"
+									/>
+									<p class="text-xs text-light_text_color">
+										4.9
+									</p>
+								</div>
+							</div>
+							<h3
+								class="mt-3 text-base font-bold text-text_color"
+							>
+								Graphic Design
+							</h3>
+							<p
+								class="max-w-[275px] text-sm text-second_text_color"
+							>
+								We focus on ergonomics and meeting you where you
+								work. It's only a keystroke away.
+							</p>
+							<div class="flex justify-between w-24 mt-3">
+								<img src="./assets/download.svg" />
+
+								<p
+									class="text-sm font-bold text-second_text_color"
+								>
+									15 Sales
+								</p>
+							</div>
+							<div class="flex mt-4 text-base font-bold">
+								<p class="text-muted_color">$16.48</p>
+								<p class="ml-1 text-secondary_color_1">$6.48</p>
+							</div>
+							<div
+								class="flex flex-col justify-between mt-6 xs:items-center xs:flex-row"
+							>
+								<div class="flex my-2">
+									<img src="./assets/clock.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										22hr 30min
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/lessons.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										64 lessons
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/progess.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										progess
+									</p>
+								</div>
+							</div>
+							<button
+								class="flex items-center mt-8 duration-300 border rounded-full group justify-evenly h-11 w-36 border-primary_color hover:bg-primary_color"
+							>
+								<p
+									class="text-sm font-bold duration-300 group-hover:translate-x-3 group-hover:text-light_text_color text-primary_color"
+								>
+									Learn More
+								</p>
+								<img
+									class="duration-150 group-hover:opacity-0"
+									src="./assets/angulararrow.svg"
+								/>
+							</button>
+						</div>
+					</card>
+					<card class="ml:w-[32.6%] ml:py-0 pb-20 w-4/5 my-10">
+						<div class="relative h-[300px]">
+							<div
+								class="absolute px-3 font-bold rounded text-light_text_color bg-danger_color top-5 left-5"
+							>
+								Sale
+							</div>
+							<img
+								class="object-cover w-full h-full"
+								src="./assets/specialize2.png"
+							/>
+							<div
+								class="absolute flex justify-between h-10 -translate-x-1/2 left-1/2 bottom-6 w-36"
+							>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full bg-light_background_color place-items-center hover:scale-110"
+								>
+									<img
+										height="17.5px"
+										width="15.5px"
+										src="./assets/like.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/cart.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/view.svg"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="w-full p-6">
+							<div class="flex justify-between w-full">
+								<h3
+									class="text-sm font-bold text-primary_color"
+								>
+									English Department
+								</h3>
+								<div
+									class="flex items-center h-full justify-between xs:px-2 py-0 xs:py-1 px-1 rounded-full w-14 bg-dark_background_color"
+								>
+									<img
+										class="scale-75 xs:scale-100"
+										src="./assets/star-fill.svg"
+									/>
+									<p class="text-xs text-light_text_color">
+										4.9
+									</p>
+								</div>
+							</div>
+							<h3
+								class="mt-3 text-base font-bold text-text_color"
+							>
+								Graphic Design
+							</h3>
+							<p
+								class="max-w-[275px] text-sm text-second_text_color"
+							>
+								We focus on ergonomics and meeting you where you
+								work. It's only a keystroke away.
+							</p>
+							<div class="flex justify-between w-24 mt-3">
+								<img src="./assets/download.svg" />
+
+								<p
+									class="text-sm font-bold text-second_text_color"
+								>
+									15 Sales
+								</p>
+							</div>
+							<div class="flex mt-4 text-base font-bold">
+								<p class="text-muted_color">$16.48</p>
+								<p class="ml-1 text-secondary_color_1">$6.48</p>
+							</div>
+							<div
+								class="flex flex-col justify-between mt-6 xs:items-center xs:flex-row"
+							>
+								<div class="flex my-2">
+									<img src="./assets/clock.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										22hr 30min
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/lessons.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										64 lessons
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/progess.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										progess
+									</p>
+								</div>
+							</div>
+							<button
+								class="flex items-center mt-8 duration-300 border rounded-full group justify-evenly h-11 w-36 border-primary_color hover:bg-primary_color"
+							>
+								<p
+									class="text-sm font-bold duration-300 group-hover:translate-x-3 group-hover:text-light_text_color text-primary_color"
+								>
+									Learn More
+								</p>
+								<img
+									class="duration-150 group-hover:opacity-0"
+									src="./assets/angulararrow.svg"
+								/>
+							</button>
+						</div>
+					</card>
+					<card class="ml:w-[32.6%] w-4/5 my-10">
+						<div class="relative h-[300px]">
+							<div
+								class="absolute px-3 font-bold rounded text-light_text_color bg-danger_color top-5 left-5"
+							>
+								Sale
+							</div>
+							<img
+								class="object-cover w-full h-full"
+								src="./assets/specialize3.png"
+							/>
+							<div
+								class="absolute flex justify-between h-10 -translate-x-1/2 left-1/2 bottom-6 w-36"
+							>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full bg-light_background_color place-items-center hover:scale-110"
+								>
+									<img
+										height="17.5px"
+										width="15.5px"
+										src="./assets/like.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/cart.svg"
+									/>
+								</button>
+								<button
+									class="grid w-10 h-10 duration-300 rounded-full hover:scale-110 bg-light_background_color place-items-center"
+								>
+									<img
+										height="20px"
+										width="20px"
+										src="./assets/view.svg"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="w-full p-6">
+							<div class="flex justify-between w-full">
+								<h3
+									class="text-sm font-bold text-primary_color"
+								>
+									English Department
+								</h3>
+								<div
+									class="flex items-center h-full justify-between xs:px-2 py-0 xs:py-1 px-1 rounded-full w-14 bg-dark_background_color"
+								>
+									<img
+										class="scale-75 xs:scale-100"
+										src="./assets/star-fill.svg"
+									/>
+									<p class="text-xs text-light_text_color">
+										4.9
+									</p>
+								</div>
+							</div>
+							<h3
+								class="mt-3 text-base font-bold text-text_color"
+							>
+								Graphic Design
+							</h3>
+							<p
+								class="max-w-[275px] text-sm text-second_text_color"
+							>
+								We focus on ergonomics and meeting you where you
+								work. It's only a keystroke away.
+							</p>
+							<div class="flex justify-between w-24 mt-3">
+								<img src="./assets/download.svg" />
+
+								<p
+									class="text-sm font-bold text-second_text_color"
+								>
+									15 Sales
+								</p>
+							</div>
+							<div class="flex mt-4 text-base font-bold">
+								<p class="text-muted_color">$16.48</p>
+								<p class="ml-1 text-secondary_color_1">$6.48</p>
+							</div>
+							<div
+								class="flex flex-col justify-between mt-6 xs:items-center xs:flex-row"
+							>
+								<div class="flex my-2">
+									<img src="./assets/clock.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										22hr 30min
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/lessons.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										64 lessons
+									</p>
+								</div>
+								<div class="flex my-2">
+									<img src="./assets/progess.svg" />
+									<p
+										class="ml-1 text-xs text-second_text_color"
+									>
+										progess
+									</p>
+								</div>
+							</div>
+							<button
+								class="flex items-center mt-8 duration-300 border rounded-full group justify-evenly h-11 w-36 border-primary_color hover:bg-primary_color"
+							>
+								<p
+									class="text-sm font-bold duration-300 group-hover:translate-x-3 group-hover:text-light_text_color text-primary_color"
+								>
+									Learn More
+								</p>
+								<img
+									class="duration-150 group-hover:opacity-0"
+									src="./assets/angulararrow.svg"
+								/>
+							</button>
+						</div>
+					</card>
+				</div>
+			</div>
+		</section>
+
+		<!-- pricing -->
+
+		<section
+			class="max-w-[1050px] xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 justify-between mx-auto py-40"
+		>
+			<h6 class="text-sm font-bold text-primary_text_color">
+				Practice Advice
+			</h6>
+			<h3 class="font-bold text-text_color text-[40px] mt-2">Pricing</h3>
+			<p class="text-sm text-second_text_color max-w-[469px]">
+				Problems trying to resolve the conflict between the two major
+				realms of Classical physics: Newtonian mechanics
+			</p>
+			<div
+				class="flex flex-col items-center justify-between md:flex-row mt-28"
+			>
+				<card
+					class="sm:w-3/4 w-11/12 md:w-[31.1%] mb-12 py-12 px-10 shadow-xl"
+				>
+					<img src="./assets/blueheart.svg" />
+					<h1
+						class="text-4xl font-bold md:text-2xl mt-9 text-text_color"
+					>
+						FREE
+					</h1>
+					<p
+						class="text-sm font-bold max-w-[203px] mt-9 text-second_text_color"
+					>
+						Organize across all apps by hand
+					</p>
+					<h6
+						class="text-[40px] text-primary_text_color font-bold mt-9"
+					>
+						19$
+					</h6>
+					<h6 class="text-sm font-bold text-disabled_element_color">
+						Per Month
+					</h6>
+					<p class="w-4/5 text-sm text-second_text_color mt-9">
+						Slate helps you see how many more days you need...
+					</p>
+					<button
+						class="bg-primary_color rounded h-[52px] duration-300 border border-primary_color max-w-[240px] w-full mt-9 font-bold text-sm text-light_text_color hover:bg-light_background_color hover:text-primary_color"
+					>
+						Try for free
+					</button>
+					<div class="flex items-center w-full mt-9">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							1GB Cloud storage
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Email and community support
+						</p>
+					</div>
+				</card>
+				<card
+					class="sm:w-3/4 w-11/12 md:w-[31.1%] mb-12 py-12 px-10 shadow-xl"
+				>
+					<img src="./assets/blueheart.svg" />
+					<h1
+						class="text-4xl font-bold md:text-2xl mt-9 text-text_color"
+					>
+						FREE
+					</h1>
+					<p
+						class="text-sm font-bold max-w-[203px] mt-9 text-second_text_color"
+					>
+						Organize across all apps by hand
+					</p>
+					<h6
+						class="text-[40px] text-primary_text_color font-bold mt-9"
+					>
+						19$
+					</h6>
+					<h6 class="text-sm font-bold text-disabled_element_color">
+						Per Month
+					</h6>
+					<p class="w-4/5 text-sm text-second_text_color mt-9">
+						Slate helps you see how many more days you need...
+					</p>
+					<button
+						class="bg-primary_color rounded h-[52px] duration-300 border border-primary_color max-w-[240px] w-full mt-9 font-bold text-sm text-light_text_color hover:bg-light_background_color hover:text-primary_color"
+					>
+						Try for free
+					</button>
+					<div class="flex items-center w-full mt-9">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							1GB Cloud storage
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Email and community support
+						</p>
+					</div>
+				</card>
+				<card
+					class="sm:w-3/4 w-11/12 md:w-[31.1%] mb-12 py-12 px-10 shadow-xl"
+				>
+					<img src="./assets/blueheart.svg" />
+					<h1
+						class="text-4xl font-bold md:text-2xl mt-9 text-text_color"
+					>
+						FREE
+					</h1>
+					<p
+						class="text-sm font-bold max-w-[203px] mt-9 text-second_text_color"
+					>
+						Organize across all apps by hand
+					</p>
+					<h6
+						class="text-[40px] text-primary_text_color font-bold mt-9"
+					>
+						19$
+					</h6>
+					<h6 class="text-sm font-bold text-disabled_element_color">
+						Per Month
+					</h6>
+					<p class="w-4/5 text-sm text-second_text_color mt-9">
+						Slate helps you see how many more days you need...
+					</p>
+					<button
+						class="bg-primary_color rounded h-[52px] duration-300 border border-primary_color max-w-[240px] w-full mt-9 font-bold text-sm text-light_text_color hover:bg-light_background_color hover:text-primary_color"
+					>
+						Try for free
+					</button>
+					<div class="flex items-center w-full mt-9">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/activeTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Unlimited product updates
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							1GB Cloud storage
+						</p>
+					</div>
+					<div class="flex items-center w-full mt-5">
+						<img src="./assets/mutedTick.svg" />
+						<p class="ml-5 text-sm font-bold text-text_color">
+							Email and community support
+						</p>
+					</div>
+				</card>
+			</div>
+		</section>
+
+		<!-- client -->
+
+		<section
+			class="max-w-[1050px] xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 justify-between mx-auto py-40"
+		>
+			<h6 class="text-sm font-bold text-primary_text_color">
+				Practice Advice
+			</h6>
+			<h3 class="font-bold text-text_color text-[40px] mt-2">
+				Each and every client is important
+			</h3>
+			<p class="text-sm text-second_text_color max-w-[469px]">
+				Problems trying to resolve the conflict between the two major
+				realms of Classical physics: Newtonian mechanics
+			</p>
+			<div class="flex flex-col justify-between mt-20 sm:flex-row">
+				<card class="sm:w-[32.69%] mx-auto w-4/5 mb-7">
+					<div class="flex justify-between w-32 mx-auto mt-14">
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-stroke.svg" />
+					</div>
+					<div
+						class="w-40 mx-auto mt-4 text-sm text-center text-second_text_color"
+					>
+						Slate helps you see how many more days you need to work
+						to reach your financial goal for the month and year.
+					</div>
+					<div class="flex w-40 mx-auto mt-8">
+						<img src="./assets/designer1.png" />
+						<div class="ml-2">
+							<h6 class="text-sm font-bold text-primary_color">
+								Regina Miles
+							</h6>
+							<p class="text-xs text-text_color">Designer</p>
+						</div>
+					</div>
+				</card>
+				<card class="sm:w-[32.69%] mx-auto w-4/5 mb-7">
+					<div class="flex justify-between w-32 mx-auto mt-14">
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-stroke.svg" />
+					</div>
+					<div
+						class="w-40 mx-auto mt-4 text-sm text-center text-second_text_color"
+					>
+						Slate helps you see how many more days you need to work
+						to reach your financial goal for the month and year.
+					</div>
+					<div class="flex w-40 mx-auto mt-8">
+						<img src="./assets/designer2.png" />
+						<div class="ml-2">
+							<h6 class="text-sm font-bold text-primary_color">
+								Regina Miles
+							</h6>
+							<p class="text-xs text-text_color">Designer</p>
+						</div>
+					</div>
+				</card>
+				<card class="sm:w-[32.69%] mx-auto mb-7 w-4/5">
+					<div class="flex justify-between w-32 mx-auto mt-14">
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-fill.svg" />
+						<img src="./assets/star-stroke.svg" />
+					</div>
+					<div
+						class="w-40 mx-auto mt-4 text-sm text-center text-second_text_color"
+					>
+						Slate helps you see how many more days you need to work
+						to reach your financial goal for the month and year.
+					</div>
+					<div class="flex w-40 mx-auto mt-8">
+						<img src="./assets/designer3.png" />
+						<div class="ml-2">
+							<h6 class="text-sm font-bold text-primary_color">
+								Regina Miles
+							</h6>
+							<p class="text-xs text-text_color">Designer</p>
+						</div>
+					</div>
+				</card>
+			</div>
+		</section>
+
+		<!-- join us -->
+
+		<section
+			class="max-w-[1050px] xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 justify-between mx-auto py-40"
+		>
+			<h6 class="text-sm font-bold text-center text-primary_text_color">
+				Newsletter
+			</h6>
+			<h3 class="font-bold text-text_color text-center text-[40px] mt-2">
+				JOIN US
+			</h3>
+			<p
+				class="text-sm mx-auto text-center text-second_text_color max-w-[469px]"
+			>
+				Problems trying to resolve the conflict between the two major
+				realms of Classical physics: Newtonian mechanics
+			</p>
+			<div class="flex mt-20 max-w-[688px] mx-auto">
+				<input
+					placeholder="Your Email"
+					class="px-5 border border-[#E6E6E6] rounded-l bg-[#F9F9F9] w-[70%]"
+				/>
+				<button
+					class="hover:bg-light_background_color duration-300 border border-primary_color hover:text-primary_color bg-primary_color h-[58px] text-light_text_color text-sm rounded-r w-[30%]"
+				>
+					<div class="duration-300">Subscribe</div>
+				</button>
+			</div>
+		</section>
+
+		<!-- contacts -->
+
+		<section
+			class="flex justify-between xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 py-12 flex-wrap max-w-[1050px] mx-auto"
+		>
+			<div class="mx-4 mb-6">
+				<h6 class="text-base font-bold text-text_color">
+					Company Info
+				</h6>
+				<ul class="mt-5">
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>About Us</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Carrier</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>We are hiring</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-4 mb-6">
+				<h6 class="text-base font-bold text-text_color">legal</h6>
+				<ul class="mt-5">
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>About Us</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Carrier</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>We are hiring</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-4 mb-6">
+				<h6 class="text-base font-bold text-text_color">Features</h6>
+				<ul class="mt-5">
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Business Marketing</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>User Analytics</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Live Chat</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Unlimited Support</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-4 mb-6">
+				<h6 class="text-base font-bold text-text_color">Resources</h6>
+				<ul class="mt-5">
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>IOS & Android</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Watch a demo</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>Customers</a>
+					</li>
+					<li
+						class="mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<a>API</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-4 mb-6">
+				<h6 class="text-base font-bold min text-text_color">
+					Get In Touch
+				</h6>
+				<ul class="mt-5 max-w-[250px] w-72">
+					<li
+						class="flex items-center mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<img src="./assets/phoneicon.svg" alt=" call icon" />
+						<a class="ml-2">(480) 555-0103</a>
+					</li>
+					<li
+						class="flex items-center mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<img
+							src="./assets/location_icon.svg"
+							alt=" call icon"
+						/>
+						<a class="ml-2"
+							>4517 Washington Ave. Manchester, Kentucky 39495</a
+						>
+					</li>
+					<li
+						class="flex items-center mt-3 text-sm font-bold cursor-pointer text-second_text_color"
+					>
+						<img src="./assets/mailicon.svg" alt=" call icon" />
+						<a class="ml-2">debra.holt@example.com</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- footer -->
+
+		<footer
+			class="md:h-20 text-center py-10 sm:py-0 xl:px-0 lg:px-16 md:px-12 sm:px-8 px-5 bg-[#FAFAFA]"
+		>
+			<div
+				class="flex flex-col-reverse sm:flex-row h-20 items-center justify-between max-w-[1050px] mx-auto"
+			>
+				<h6 class="font-bold text-second_text_color">
+					Made With Love By Figmaland All Right Reserved
+				</h6>
+				<div class="flex justify-between mx-5 md:mx-16 w-28">
+					<div class="group">
+						<a
+							><img
+								class="duration-300 cursor-pointer group-hover:-translate-y-1"
+								src="./assets/facebook_icon.svg"
+								alt="fb logo"
+						/></a>
+					</div>
+					<div class="group">
+						<a
+							><img
+								class="duration-300 cursor-pointer group-hover:-translate-y-1"
+								src="./assets/insta_icon.svg"
+								alt="insta logo"
+						/></a>
+					</div>
+					<div class="group">
+						<a
+							><img
+								class="duration-300 cursor-pointer group-hover:-translate-y-1"
+								src="./assets/twitter_icon.svg"
+								alt="twitter logo"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="module" src="./js/main.js"></script>
+	</body>
+</html>
